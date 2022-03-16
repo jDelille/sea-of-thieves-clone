@@ -1,4 +1,4 @@
-## Working on a clone of the sea of thieves website with a few friends.
+## Working on a clone of the sea of thieves website 
 
 
 
