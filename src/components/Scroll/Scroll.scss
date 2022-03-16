@@ -1,0 +1,78 @@
+.section {
+ height: 100vh;
+ position: relative;
+}
+
+.img-wrapper {
+ overflow: visible;
+ background-color: rgb(235, 183, 51);
+ position: absolute;
+ clip: rect(0, auto, auto, 0);
+ width: 100%;
+ height: 100%;
+ top: 0;
+ left: 0;
+}
+
+.even:before,
+.even:after {
+ content: "";
+ background: url("https://seaofthieveswebassetsprod.azureedge.net/bd039cad62287c99dff759c8f67ddc28/assets/section-tattered/dt_ui_content_divider.svg") repeat-x 50% 50%/auto 100%;
+ position: absolute;
+ height: 10px;
+ left: 0;
+ top: -4px;
+ width: 100%;
+ z-index: 10;
+ pointer-events: none;
+}
+
+.section:before,
+.section:after {
+ content: "";
+ background: url("https://seaofthieveswebassetsprod.azureedge.net/bd039cad62287c99dff759c8f67ddc28/assets/section-tattered/dt_ui_content_divider.svg") repeat-x 50% 50%/auto 100%;
+ position: absolute;
+ height: 10px;
+ left: 0;
+ top: -4px;
+ width: 100%;
+ z-index: 10;
+ pointer-events: none;
+}
+
+
+
+.even {
+ width: 100%;
+ height: 90vh;
+ background-size: cover;
+ background-repeat: no-repeat;
+ position: relative;
+}
+
+.even-1 {
+ background-image: url("https://compass-ssl.xboxlive.com/assets/0c/44/0c44fc5a-61d9-472f-95e7-2c76f04aa2b4.jpg?n=Parallax_Sections_Large_Desktop_01.jpg");
+ 
+}
+.even-2 {
+ background-image: url("https://compass-ssl.xboxlive.com/assets/61/86/61867fd9-70e2-403a-8b92-ea3dd909bd07.jpg?n=Parallax_Sections_Large_Desktop_01.jpg");
+}
+.even-3 {
+ background-image: url("https://compass-ssl.xboxlive.com/assets/ed/d1/edd15f1e-6022-42f0-aafb-5bdf862f13c7.jpg?n=Parallax_Sections_Large_Desktop_01.jpg");
+}
+
+.scroll-img {
+ position: fixed;
+ z-index: 3;
+ left: 0;
+ top: 0;
+ height: calc(100vh);
+}
+
+.content {
+ width: 100%;
+ height: 100vh;
+ background-color: #160202;
+ color: white;
+ display: flex;
+}
